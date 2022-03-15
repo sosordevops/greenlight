@@ -23,6 +23,10 @@
 /db/production
 /db/production-postgres
 
+# Ignore development paths.
+/db/development
+/db/development-postgres
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp

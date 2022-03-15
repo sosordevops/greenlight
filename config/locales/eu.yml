@@ -1,18 +1,18 @@
-# BigBlueButton open source conferencing system - http://www.bigbluebutton.org/.
+# Theta eLearning open source conferencing system - http://www.bigbluebutton.org/.
 #
-# Copyright (c) 2018 BigBlueButton Inc. and by respective authors (see below).
+# Copyright (c) 2018 Theta eLearning Inc. and by respective authors (see below).
 #
 # This program is free software; you can redistribute it and/or modify it under the
 # terms of the GNU Lesser General Public License as published by the Free Software
 # Foundation; either version 3.0 of the License, or (at your option) any later
 # version.
 #
-# BigBlueButton is distributed in the hope that it will be useful, but WITHOUT ANY
+# Theta eLearning is distributed in the hope that it will be useful, but WITHOUT ANY
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
 #
 # You should have received a copy of the GNU Lesser General Public License along
-# with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
+# with Theta eLearning; if not, see <http://www.gnu.org/licenses/>.
 
 # Locale.
 
@@ -36,7 +36,7 @@ eu:
         enabled: Gaituta
         info: Soilik autentikatutako erabiltzaileei utzi geletara sartzen
         title: Autentikatzea behartu geletarako
-        user-info: Greenlighten erregistratu behar zara gela honetara batzeko
+        user-info: Theta eLearningen erregistratu behar zara gela honetara batzeko
       branding:
         change: Irudia Aldatu
         info: Aldatu goiko ezkerreko txokoan agertzen den marka-irudia
@@ -95,7 +95,7 @@ eu:
       shared_access:
         info: "Desgaituz Gelaren aukeren zerrendatik kenduko du botoia, erabiltzaileek gela partekatzeko aukera saihestuz"
         title: Baimendu Erabiltzeek Gelak Partekatzea
-      subtitle: Greenlight pertsonalizatu
+      subtitle: Theta eLearning pertsonalizatu
       title: Gunearen Ezarpenak
     flash:
       approved: Erabiltzailea ongi onartu da.
@@ -143,13 +143,13 @@ eu:
     room_configuration:
       title: Gelaren Ezarpenak
       mute:
-        info: Automatikoki mututu erabiltzailea BigBlueButtoneko bilera batetara batzean
+        info: Automatikoki mututu erabiltzailea Theta eLearningeko bilera batetara batzean
       require_moderator:
-        info: "BigBlueButtoneko bileraren moderatzaileari abisua bidaltzen dio erabiltzaile bat batzen saiatzen. Erabiltzailea onartzen bada, bilerara batzeko aukera izango du."
+        info: "Theta eLearningeko bileraren moderatzaileari abisua bidaltzen dio erabiltzaile bat batzen saiatzen. Erabiltzailea onartzen bada, bilerara batzeko aukera izango du."
       allow_any:
         info: "Onartu edozein erabiltzailek bilera hastean edozein momentutan. Modu lehenetsian, gelaren jabeak bakarrik has dezake bilera."
       all_moderator:
-        info: Eman erabiltzaile guztiei moderatzaile pribilegioak BigBlueButtonen bilera batetara batzean
+        info: Eman erabiltzaile guztiei moderatzaile pribilegioak Theta eLearningen bilera batetara batzean
       options:
         disabled: Desgaituta
         enabled: Beti Gaituta
@@ -192,7 +192,7 @@ eu:
         username: Erabiltzaile izena
       title: Kudeatu Erabiltzaileak
   add_to_google_calendar: "Gehitu Google Calendarrera"
-  bigbluebutton: BigBlueButton
+  bigbluebutton: Theta eLearning
   bigbluebutton_exception: "Kontxo, errore bat egon da bilera hastean!"
   cancel: Ezeztatu
   cookies:
@@ -212,7 +212,7 @@ eu:
   errors:
     bigbluebutton:
       help: "Ziurtatu urrats egokiak egin direla, mesedez. <a href=\"%{doc_link}\">Gehiago ikasi</a>"
-      message: Baliogabeko BigBlueButton Helburu eta Sekretua
+      message: Baliogabeko Theta eLearning Helburu eta Sekretua
       title: Zerbitzariko Errorea
     internal:
       message: Badirudi gure aldean zerbait gaizki joan dela.
@@ -225,9 +225,9 @@ eu:
       contact_admin: "Ez bazara administratzailea, kontaktatu batekin mesedez."
       continue: 1.0 erabiltzen jarraitu nahi dut.
       notice: >
-        Greenlightek datu-base migrazio errore bat topatu du. <br> Greenlight 2.0ra eguneratu ez duzulako izan daiteke.
+        Theta eLearningek datu-base migrazio errore bat topatu du. <br> Theta eLearning 2.0ra eguneratu ez duzulako izan daiteke.
       upgrade: Erakutsi nola eguneratu 2.0ra!
-      version: "Greenlighteko bertsio berri bat atera dugu, baina zure datu-basea ez da bateragarria."
+      version: "Theta eLearningeko bertsio berri bat atera dugu, baina zure datu-basea ez da bateragarria."
     messages:
       blank: ezin du hutsik egon
       too_short: oso motza da
@@ -238,7 +238,7 @@ eu:
       inclusion: ez dago zerrendan
     no_provider:
       message: Atzitu nahi duzun gunea ez dago gaituta
-      help: "Zure sistema administratzailearekin harremanetan jarri Greenlight konfiguratzeko, mesedez"
+      help: "Zure sistema administratzailearekin harremanetan jarri Theta eLearning konfiguratzeko, mesedez"
     not_found:
       message: Sentitzen dut! Bila zabiltzan orria ez da existitzen.
       help: "Posible da ezabatu izana?"
@@ -268,7 +268,7 @@ eu:
     email: Email
     submit: Bidali
   go_back: Atzera
-  greenlight: Greenlight
+  greenlight: Theta eLearning
   header:
     all_recordings: Grabazio Guztiak
     dropdown:
@@ -287,16 +287,16 @@ eu:
       mailer:
         subject: 'grabazio bat ikustera gonbidatu zaitu.'
         body: 'Grabazioa ikusteko, jarraitu beheko esteka:'
-        autogenerated: 'Mezu hau BigBlueButtonek auto-generatua da.'
-        footer: 'BigBlueButton kore irekiko konferentzia sistema da. BigBlueButtonen informazio gehiagorako, ikusi https://bigbluebutton.org/.'
+        autogenerated: 'Mezu hau Theta eLearningek auto-generatua da.'
+        footer: 'Theta eLearning kore irekiko konferentzia sistema da. Theta eLearningen informazio gehiagorako, ikusi https://bigbluebutton.org/.'
     search:
       start: Hasi bilatzen...
   landing:
-    about: "%{href} zure kode irekiko BigBlueButton konferentzia zerbitzurako front-end sinple bat da. Zure gela propioak sor ditzakezu saioak ostatatzeko, edo beste batzuenera batu esteka labur eta praktiko bat erabiliz."
-    welcome: Ongi etorri BigBlueButtonera.
-    video: Ikusi Greenlight erabiltzeko gure tutoriala.
+    about: "%{href} zure kode irekiko Theta eLearning konferentzia zerbitzurako front-end sinple bat da. Zure gela propioak sor ditzakezu saioak ostatatzeko, edo beste batzuenera batu esteka labur eta praktiko bat erabiliz."
+    welcome: Ongi etorri Theta eLearningera.
+    video: Ikusi Theta eLearning erabiltzeko gure tutoriala.
     upgrade: Erakutsi nola eguneratu 2.0ra!
-    version: "Greenlighteko bertsio berri bat atera dugu, baina zure datu-basea ez da bateragarria."
+    version: "Theta eLearningeko bertsio berri bat atera dugu, baina zure datu-basea ez da bateragarria."
   language_default: Lehenetsia (nabigatzailearen hizkuntza)
   ldap_error: "Ezin izan da LDAP zerbitzarira konektatu. Begiratu env fitxategiko LDAP ezarpenak eta ziurtatu zerbitzaria martxan dagoela, mesedez."
   login: Saioa hasi
@@ -308,10 +308,10 @@ eu:
         signin: "Zure gela pertsonaletara sartzeko, klikatu beheko botoian eta hasi saioa."
         signin_link: Saioa Hasi
         signup:
-          info: Erabiltzaile berri batek izena eman du Greenlight erabiltzeko.
-          more-info: Erabiltzaile honi Greenlight atzitzeko baimena emateko bere kontua onartu behar duzu erakundearen ezarpenetan.
+          info: Erabiltzaile berri batek izena eman du Theta eLearning erabiltzeko.
+          more-info: Erabiltzaile honi Theta eLearning atzitzeko baimena emateko bere kontua onartu behar duzu erakundearen ezarpenetan.
           admins_link: Joan Erakundearen Orrira
-          subject: Greenlighteko Erabiltzaile Izen Emate Berria
+          subject: Theta eLearningeko Erabiltzaile Izen Emate Berria
           username: "Erabiltzailea %{name} izena eta %{email} posta kontuarekin erregistratu da."
         subject: Kontua Onartuta
         username: "Zure erabiltzailea %{email} da."
@@ -325,11 +325,11 @@ eu:
         signup_info: "Zure posta kontuarekin erregistratzeko, klikatu beheko botoia eta urratsak jarraitu."
         signup_link: Izena Eman
         signup:
-          info: Gonbidatua izan den erabiltzaile batek Greenlight erabiltzeko izena eman du.
+          info: Gonbidatua izan den erabiltzaile batek Theta eLearning erabiltzeko izena eman du.
           admins_link: Joan Erakundearen Orrira
-          subject: "Greenlight Erabiltzaile Izen Emate Berria "
+          subject: "Theta eLearning Erabiltzaile Izen Emate Berria "
           username: "Erabiltzaileak %{name} izenarekin eta %{email} posta kontuarekin eman du izena."
-        subject: BigBlueButton-era batzeko gonbidapena
+        subject: Theta eLearning-era batzeko gonbidapena
         username: "Zure erabiltzailea %{email} da."
       password_reset:
         title: 'Pasahitza berrezartzea'

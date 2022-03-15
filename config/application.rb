@@ -134,7 +134,7 @@ module Greenlight
     config.maintenance_mode = parse_bool(ENV["MAINTENANCE_MODE"])
 
     config.report_issue_url = ENV["REPORT_ISSUE_URL"]
-    config.help_url = ENV["HELP_URL"].nil? ? "https://docs.bigbluebutton.org/greenlight/gl-overview.html" : ENV["HELP_URL"]
+    config.help_url = ENV["HELP_URL"].nil? ? "https://www.sosor.eu/e-learning" : ENV["HELP_URL"]
 
     # File types allowed in preupload presentation
     config.allowed_file_types = ".doc,.docx,.ppt,.pptx,.pdf,.xls,.xlsx,.txt,.rtf,.odt,.ods,.odp,.odg,.odc,.odi,.jpg,.jpeg,.png"
@@ -145,7 +145,7 @@ module Greenlight
     # DEFAULTS
 
     # Default branding image if the user does not specify one
-    config.branding_image_default = "https://raw.githubusercontent.com/bigbluebutton/greenlight/master/app/assets/images/logo_with_text.png"
+    config.branding_image_default = "https://storage.googleapis.com/elearning.sosor.eu/assets/images/theta/logo_minimal.png"
 
     # Default primary color if the user does not specify one
     config.primary_color_default = "#467fcf"

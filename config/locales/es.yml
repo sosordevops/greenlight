@@ -1,18 +1,18 @@
-# BigBlueButton open source conferencing system - http://www.bigbluebutton.org/.
+# Theta eLearning open source conferencing system - http://www.bigbluebutton.org/.
 #
-# Copyright (c) 2018 BigBlueButton Inc. and by respective authors (see below).
+# Copyright (c) 2018 Theta eLearning Inc. and by respective authors (see below).
 #
 # This program is free software; you can redistribute it and/or modify it under the
 # terms of the GNU Lesser General Public License as published by the Free Software
 # Foundation; either version 3.0 of the License, or (at your option) any later
 # version.
 #
-# BigBlueButton is distributed in the hope that it will be useful, but WITHOUT ANY
+# Theta eLearning is distributed in the hope that it will be useful, but WITHOUT ANY
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
 #
 # You should have received a copy of the GNU Lesser General Public License along
-# with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
+# with Theta eLearning; if not, see <http://www.gnu.org/licenses/>.
 
 # Locale.
 
@@ -111,7 +111,7 @@ es:
       shared_access:
         info: "Si se establece en deshabilitado, se eliminará el botón del menú desplegable de opciones de sala, lo que evitará que los usuarios compartan salas"
         title: Permitir a los usuarios compartir salas
-      subtitle: Personalizar Greenlight
+      subtitle: Personalizar Theta eLearning
       tabs:
         appearance: Apariencia
         administration: Administración
@@ -166,13 +166,13 @@ es:
     room_configuration:
       title: Configuración de sala
       mute:
-        info: Silencia automáticamente al usuario cuando se une a la reunión de BigBlueButton
+        info: Silencia automáticamente al usuario cuando se une a la reunión de Theta eLearning
       require_moderator:
-        info: "Avisa al moderador de la reunión de BigBlueButton cuando un usuario intenta unirse. Si se aprueba al usuario, podrá unirse a la reunión."
+        info: "Avisa al moderador de la reunión de Theta eLearning cuando un usuario intenta unirse. Si se aprueba al usuario, podrá unirse a la reunión."
       allow_any:
         info: "Permite a cualquier usuario iniciar la reunión en cualquier momento. De forma predeterminada, solo el propietario de la sala puede iniciar la reunión."
       all_moderator:
-        info: Otorga a todos los usuarios los privilegios de usuario moderador en BigBlueButton cuando se unen a la reunión.
+        info: Otorga a todos los usuarios los privilegios de usuario moderador en Theta eLearning cuando se unen a la reunión.
       recordings:
         info: "Permite a los propietarios de salas especificar si desean la opción de grabar una sala o no. Si está habilitada, el moderador aún debe hacer clic en el botón \"Grabar\" una vez que haya comenzado la reunión."
       moderator_codes:
@@ -223,7 +223,7 @@ es:
         valid: Válido
       title: Administrar usuarios
   add_to_google_calendar: "Agregar al Calendario de Google"
-  bigbluebutton: BigBlueButton
+  bigbluebutton: Theta eLearning
   bigbluebutton_exception: ¡Oh no! Ocurrió un error al iniciar la sesión.
   cancel: Cancelar
   cookies:
@@ -244,7 +244,7 @@ es:
   errors:
     bigbluebutton:
       help: "Asegúrese de que los pasos han sido seguidos correctamente. <a href=\"%{doc_link}\">Saber más</a>"
-      message: La URL o clave secreta del servidor BigBlueButton no son válidas
+      message: La URL o clave secreta del servidor Theta eLearning no son válidas
       title: Error del servidor
     internal:
       message: Parece que algo salió mal de nuestro lado.
@@ -257,9 +257,9 @@ es:
       contact_admin: "Si no es administrador, por favor, contacte con uno."
       continue: Me gustaría seguir utilizando la versión 1.0
       notice: >
-        Greenlight encontró un error al migrar la base de datos. <br>Esto puede deberse a que no ha actualizado Greenlight a la versión 2.0
+        Theta eLearning encontró un error al migrar la base de datos. <br>Esto puede deberse a que no ha actualizado Theta eLearning a la versión 2.0
       upgrade: Muéstrame cómo actualizar a la versión 2.0
-      version: "Hemos publicado una nueva versión de Greenlight, pero la base de datos instalada no es compatible."
+      version: "Hemos publicado una nueva versión de Theta eLearning, pero la base de datos instalada no es compatible."
     messages:
       blank: el valor no puede estar vacío
       too_short: es demasiado corta
@@ -271,7 +271,7 @@ es:
       domain: "debe terminar con \"%{email_domain}\""
     no_provider:
       message: El sitio al que está intentando acceder no se encuentra activo
-      help: "Por favor, contacte con el administrador del sistema para configurar Greenlight"
+      help: "Por favor, contacte con el administrador del sistema para configurar Theta eLearning"
     not_found:
       message: "Lo sentimos, la página que está buscando no existe."
       help: "¿Es posible que haya sido eliminada?"
@@ -301,7 +301,7 @@ es:
     email: Cuenta de correo
     submit: Enviar
   go_back: Atrás
-  greenlight: Greenlight
+  greenlight: Theta eLearning
   header:
     all_recordings: Todas las grabaciones
     dropdown:
@@ -321,16 +321,16 @@ es:
       mailer:
         subject: 'le ha invitado a ver una grabación.'
         body: 'Siga el enlace para ver la grabación:'
-        autogenerated: 'Este correo electrónico es generado automáticamente por BigBlueButton'
-        footer: 'BigBlueButton es un sistema open source, basado en web, para videoconferencia. Para mayor información, visite https://bigbluebutton.org/.'
+        autogenerated: 'Este correo electrónico es generado automáticamente por Theta eLearning'
+        footer: 'Theta eLearning es un sistema open source, basado en web, para videoconferencia. Para mayor información, visite https://bigbluebutton.org/.'
     search:
       start: Comenzar búsqueda...
   landing:
-    about: "%{href} es una interface web para su servidor de conferencias de código abierto, BigBlueButton. Usted puede crear sus propias salas y ser anfitrión de sesiones o unirse a otras sólamente usando un enlace corto."
-    welcome: Bienvenido a <span class="green-grad">Greenlight</span>.
-    video: Vea nuestro tutorial sobre cómo utilizar Greenlight
+    about: "%{href} es una interface web para su servidor de conferencias de código abierto, Theta eLearning. Usted puede crear sus propias salas y ser anfitrión de sesiones o unirse a otras sólamente usando un enlace corto."
+    welcome: Bienvenido a <span class="green-grad">Theta eLearning</span>.
+    video: Vea nuestro tutorial sobre cómo utilizar Theta eLearning
     upgrade: Muéstrame cómo actualizar a la versión 2.0
-    version: "Hemos publicado una nueva versión de Greenlight, pero la base de datos del sistema instalado no es compatible."
+    version: "Hemos publicado una nueva versión de Theta eLearning, pero la base de datos del sistema instalado no es compatible."
   language_default: Por omisión (idioma del navegador)
   ldap_error: No se puede conectar al servidor LDAP. Compruebe la configuración de LDAP en el archivo "env" y asegúrate de que tu servidor está ejecutándose.
   login: Iniciar sesión
@@ -364,7 +364,7 @@ es:
           admins_link: Ir a la página de la organización
           subject: Registro de usuario nuevo
           username: "El usuario se ha registrado como %{name} con el correo electrónico %{email}. "
-        subject: Invitación para unirse a BigBlueButton
+        subject: Invitación para unirse a Theta eLearning
         username: "Tu nombre de usuario es %{email}."
       password_reset:
         title: 'La contraseña ha sido reiniciada'
@@ -566,7 +566,7 @@ es:
     enter_the_moderator_access_code: ¡Introduzca el código de moderador de la sala!
     optional_moderator_access_code: "Código opcional de moderador:"
     invalid_provider: El enlace introducido no es válido. Revísalo e inténtalo de nuevo.
-    invitation_description: "Ha sido invitado a unirse a %{name} usando BigBlueButton. Para unirse, haga clic en el enlace superior e introduzca su nombre."
+    invitation_description: "Ha sido invitado a unirse a %{name} usando Theta eLearning. Para unirse, haga clic en el enlace superior e introduzca su nombre."
     invited: Ha sido invitado a unirse
     recording_present: Reconozco que esta sesión se va a grabar. Esto puede incluir mi voz y vídeo si está habilitado.
     invite_participants: Invitar participantes

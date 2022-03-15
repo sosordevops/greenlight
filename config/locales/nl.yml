@@ -1,18 +1,18 @@
-# BigBlueButton open source conferencing system - http://www.bigbluebutton.org/.
+# Theta eLearning open source conferencing system - http://www.bigbluebutton.org/.
 #
-# Copyright (c) 2018 BigBlueButton Inc. and by respective authors (see below).
+# Copyright (c) 2018 Theta eLearning Inc. and by respective authors (see below).
 #
 # This program is free software; you can redistribute it and/or modify it under the
 # terms of the GNU Lesser General Public License as published by the Free Software
 # Foundation; either version 3.0 of the License, or (at your option) any later
 # version.
 #
-# BigBlueButton is distributed in the hope that it will be useful, but WITHOUT ANY
+# Theta eLearning is distributed in the hope that it will be useful, but WITHOUT ANY
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
 #
 # You should have received a copy of the GNU Lesser General Public License along
-# with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
+# with Theta eLearning; if not, see <http://www.gnu.org/licenses/>.
 
 # Locale.
 
@@ -119,7 +119,7 @@ nl:
       shared_access:
         info: "Als u dit instelt op uitgeschakeld, wordt de knop verwijderd uit de keuzelijst Kameropties, waardoor gebruikers geen kamers kunnen delen"
         title: Gebruikers toestaan kamers te delen
-      subtitle: Greenlight aanpassen
+      subtitle: Theta eLearning aanpassen
       tabs:
         appearance: Uiterlijk
         administration: Administratie
@@ -175,13 +175,13 @@ nl:
     room_configuration:
       title: Kamerinstellingen
       mute:
-        info: Dempt automatisch de gebruiker wanneer ze deelnemen aan de BigBlueButton-vergadering
+        info: Dempt automatisch de gebruiker wanneer ze deelnemen aan de Theta eLearning-vergadering
       require_moderator:
-        info: "Vraagt de moderator van de BigBlueButton-vergadering wanneer een gebruiker probeert deel te nemen. Als de gebruiker is goedgekeurd, kunnen ze deelnemen aan de vergadering."
+        info: "Vraagt de moderator van de Theta eLearning-vergadering wanneer een gebruiker probeert deel te nemen. Als de gebruiker is goedgekeurd, kunnen ze deelnemen aan de vergadering."
       allow_any:
         info: Hiermee kan elke gebruiker de vergadering op elk moment starten. Standaard kan alleen de kamer eigenaar de vergadering starten.
       all_moderator:
-        info: Geeft alle gebruikers moderatorrechten in BigBlueButton wanneer ze deelnemen aan de vergadering.
+        info: Geeft alle gebruikers moderatorrechten in Theta eLearning wanneer ze deelnemen aan de vergadering.
       recordings:
         info: "Hiermee kunnen kamereigenaren aangeven of ze de optie willen om een kamer op te nemen of niet. Indien ingeschakeld, moet de moderator nog steeds op de knop \"Opnemen\" klikken nadat de vergadering is begonnen."
       moderator_codes:
@@ -232,7 +232,7 @@ nl:
         valid: Geldig
       title: Gebruikers beheren
   add_to_google_calendar: "Toevoegen aan Google Agenda"
-  bigbluebutton: BigBlueButton
+  bigbluebutton: Theta eLearning
   bigbluebutton_exception: "Oeps, er is een fout opgetreden bij het starten van de vergadering!"
   cancel: Annuleren
   cookies:
@@ -253,7 +253,7 @@ nl:
   errors:
     bigbluebutton:
       help: "Zorg ervoor dat de juiste stappen zijn genomen. <a href=\"%{doc_link}\"> Meer informatie </a>"
-      message: Ongeldig BigBlueButton-eindpunt en geheim
+      message: Ongeldig Theta eLearning-eindpunt en geheim
       title: Serverfout
     internal:
       message: Het lijkt erop dat er iets mis is gegaan aan onze kant.
@@ -266,9 +266,9 @@ nl:
       contact_admin: "Als u geen beheerder bent, contacteer er dan een."
       continue: Ik wil graag 1.0 blijven gebruiken.
       notice: >-
-        Greenlight heeft een databasemigratiefout aangetroffen. <br> Dit kan zijn omdat u niet hebt bijgewerkt naar Greenlight 2.0.
+        Theta eLearning heeft een databasemigratiefout aangetroffen. <br> Dit kan zijn omdat u niet hebt bijgewerkt naar Theta eLearning 2.0.
       upgrade: Laat me zien hoe ik kan upgraden naar 2.0!
-      version: "We hebben een nieuwe versie van Greenlight uitgebracht, maar uw database is niet compatibel."
+      version: "We hebben een nieuwe versie van Theta eLearning uitgebracht, maar uw database is niet compatibel."
     messages:
       blank: kan niet leeg zijn
       too_short: is te kort
@@ -280,7 +280,7 @@ nl:
       domain: "moet eindigen op \"%{email_domain}\""
     no_provider:
       message: "De site die u probeert te openen, is niet ingeschakeld"
-      help: Neem contact op met uw systeembeheerder om Greenlight in te stellen
+      help: Neem contact op met uw systeembeheerder om Theta eLearning in te stellen
     not_found:
       message: "Sorry! De pagina die u zoekt, bestaat niet."
       help: "Is het mogelijk dat het is verwijderd?"
@@ -310,7 +310,7 @@ nl:
     email: E-mail
     submit: Verzenden
   go_back: Ga terug
-  greenlight: Greenlight
+  greenlight: Theta eLearning
   header:
     all_recordings: Alle opnames
     dropdown:
@@ -330,16 +330,16 @@ nl:
       mailer:
         subject: 'heeft u uitgenodigd om een ​​opname te bekijken.'
         body: 'Volg de onderstaande link om de opname te bekijken:'
-        autogenerated: 'Deze e-mail werd automatisch gegenereerd door BigBlueButton.'
-        footer: 'BigBlueButton is een open source webconferentiesysteem. Zie https://bigbluebutton.org/ voor meer informatie over BigBlueButton.'
+        autogenerated: 'Deze e-mail werd automatisch gegenereerd door Theta eLearning.'
+        footer: 'Theta eLearning is een open source webconferentiesysteem. Zie https://bigbluebutton.org/ voor meer informatie over Theta eLearning.'
     search:
       start: Begin zoekopdracht
   landing:
-    about: "%{href} is een eenvoudige front-end voor uw BigBlueButton open-source webconferentieserver. U kunt uw eigen ruimtes maken om sessies te hosten of u kunt via een korte en handige link lid worden van anderen."
-    welcome: Welkom bij BigBlueButton.
-    video: Bekijk onze tutorial over het gebruik van Greenlight
+    about: "%{href} is een eenvoudige front-end voor uw Theta eLearning open-source webconferentieserver. U kunt uw eigen ruimtes maken om sessies te hosten of u kunt via een korte en handige link lid worden van anderen."
+    welcome: Welkom bij Theta eLearning.
+    video: Bekijk onze tutorial over het gebruik van Theta eLearning
     upgrade: Laat me zien hoe ik kan upgraden naar 2.0!
-    version: "We hebben een nieuwe versie van Greenlight uitgebracht, maar uw database is niet compatibel."
+    version: "We hebben een nieuwe versie van Theta eLearning uitgebracht, maar uw database is niet compatibel."
   language_default: Standaard (browsertaal)
   ldap_error: Kan geen verbinding maken met de LDAP-server. Controleer uw LDAP-configuratie in het env-bestand en zorg ervoor dat uw server actief is.
   login: Inloggen
@@ -353,10 +353,10 @@ nl:
         signin: "Om toegang te krijgen tot uw persoonlijke kamers, klikt u op de onderstaande knop en logt u in."
         signin_link: Inloggen
         signup:
-          info: Een nieuwe gebruiker heeft zich aangemeld om Greenlight te gebruiken.
-          more-info: "Om deze gebruiker toegang te geven tot Greenlight, moet u zijn account goedkeuren in de organisatie-instellingen."
+          info: Een nieuwe gebruiker heeft zich aangemeld om Theta eLearning te gebruiken.
+          more-info: "Om deze gebruiker toegang te geven tot Theta eLearning, moet u zijn account goedkeuren in de organisatie-instellingen."
           admins_link: Bezoek de organisatiepagina
-          subject: Nieuwe registratie van een Greenlightgebruiker
+          subject: Nieuwe registratie van een Theta eLearninggebruiker
           username: "De gebruiker heeft zich aangemeld met de naam %{name} en het e-mailadres %{email}."
         subject: Account goedgekeurd
         username: "Uw gebruikersnaam is %{email}."
@@ -371,11 +371,11 @@ nl:
         signup_link: Registreren
         valid: "De uitnodiging is geldig tot: %{date}"
         signup:
-          info: Een uitgenodigde gebruiker heeft zich aangemeld om Greenlight te gebruiken.
+          info: Een uitgenodigde gebruiker heeft zich aangemeld om Theta eLearning te gebruiken.
           admins_link: Bezoek de organisatiepagina
-          subject: Nieuwe registratie van een Greenlightgebruiker
+          subject: Nieuwe registratie van een Theta eLearninggebruiker
           username: "De gebruiker heeft zich aangemeld met de naam %{name} en het e-mailadres %{email}."
-        subject: Uitnodiging om lid te worden van BigBlueButton
+        subject: Uitnodiging om lid te worden van Theta eLearning
         username: "Uw gebruikersnaam is %{email}."
       password_reset:
         title: 'Wachtwoord reset'
@@ -590,7 +590,7 @@ nl:
     enter_the_moderator_access_code: Vul de moderator code van de kamer in!
     optional_moderator_access_code: "Optionele Moderator Code"
     invalid_provider: U heeft een ongeldige URL ingevoerd. Controleer de URL en probeer het opnieuw.
-    invitation_description: "Je bent uitgenodigd om deel te nemen aan %{name} via BigBlueButton. Klik op bovenstaande link en voert u uw naam in om te beginnen."
+    invitation_description: "Je bent uitgenodigd om deel te nemen aan %{name} via Theta eLearning. Klik op bovenstaande link en voert u uw naam in om te beginnen."
     invited: Je bent uitgenodigd om lid te worden
     recording_present: Ik erken dat deze sessie zal worden opgenomen. Deze opname kan mijn stem en video bevatten indien dit is ingeschakeld.
     invite_participants: Deelnemers uitnodigen

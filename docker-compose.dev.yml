@@ -1,11 +1,17 @@
 version: '3'
 
 services:
+  nginx:
+    image: nginx
+    ports:
+      - 80:5000
+    volumes:
+      - ./greenlight.nginx:/etc/nginx/conf.d/default.conf
   app:
     entrypoint: [bin/start]
     image: eu.gcr.io/theta-elearning-demo/theta-greenlight:v2 
     container_name: theta-greenlight-v2
-    env_file: .env
+    env_file: .env-development
     restart: unless-stopped
     ports:
       - 127.0.0.1:5000:80
@@ -18,18 +24,20 @@ services:
     volumes:
       - ./log:/usr/src/app/log
       - ./storage:/usr/src/app/storage
+    depends_on:
+      - nginx
 # When using sqlite3 as the database
-#      - ./db/production:/usr/src/app/db/production
+#      - ./db/development:/usr/src/app/db/development
 # When using postgresql as the database
     links:
       - db
   db:
-    image: postgres:13-alpine
+    image: postgres:13.2-alpine
     restart: unless-stopped
     ports:
       - 127.0.0.1:5432:5432
     volumes:
-      - ./db/production:/var/lib/postgresql/data
+      - ./db/development:/var/lib/postgresql/data
     environment:
       - POSTGRES_DB=postgres
       - POSTGRES_USER=postgres
